@@ -14,10 +14,8 @@ const carkey = require("@/assets/images/carkey.png");
 export default function Result() {
     const params = useLocalSearchParams();
     const carPrice = parseFloat(params.carPrice as string || "0");
-    const downPaymentPercent = parseFloat(params.downPaymentPercent as string || "0");
     const downPaymentAmount = parseFloat(params.downPaymentAmount as string || "0");
     const carPriceLoan = parseFloat(params.carPriceLoan as string || "0");
-    const totalInterest = parseFloat(params.totalInterest as string || "0");
     const termMonths = parseFloat(params.termMonths as string || "0");
     const monthlyPayment = parseFloat(params.monthlyPayment as string || "0");
 
